@@ -12,7 +12,7 @@
 			//Write your code here
 			arr.sort(function(a,b){ return b-a});
 			if(arr.length == 0 || arr.length == 1) return -Infinity;
-			for(int i=1;i<arr.length;i++){
+			for(let i=1;i<arr.length;i++){
 				if(arr[i] != arr[i-1]) return arr[i];
 			}
 			return -Infinity;
